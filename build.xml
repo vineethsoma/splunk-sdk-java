@@ -48,7 +48,7 @@
         <delete dir="out" /> <!-- IntelliJ's output directory -->
     </target>
 
-    <target name="build">
+    <target name="compile">
         <!-- Compile the SDK -->
         <mkdir dir="${build.splunk}"/>
         <javac includeantruntime="false"
